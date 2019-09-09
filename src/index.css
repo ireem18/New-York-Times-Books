@@ -34,13 +34,15 @@ code {
     height: 100px;
     background: white;
     color: black;
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster Two', cursive;
     padding: 20px;
     display: flex;
     justify-content:center;
     margin-top: 5px;
     background:transparent;
     font-size: 50px;
+    margin-left:50px;
+
   
   }
   .container-2 {
@@ -70,7 +72,8 @@ code {
     margin-left: 10px;
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 10px;
+    color:orange;
   }
   .Search-Container-2 {
     width: 60%;
@@ -96,7 +99,7 @@ code {
     text-align: center;
     font-family: 'Kanit', sans-serif;
     border: none;
-    color: white;
+    color:black;
   }
   .Footer-Container {
     width: 100%;
@@ -131,7 +134,7 @@ code {
   height: 300px;
   background-color: white;
   margin-left: 80px;
-  margin-top: 111px;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -143,7 +146,7 @@ code {
 }
 .Books-Column {
   width: 400px;
-  height: 495px;
+
   /*background-color:#b3dcff;*/
   border-radius: 10%;
   display: flex;
@@ -320,6 +323,7 @@ a:active {text-decoration: none;}
   left:50%;
   top:150px;
   border:0px transparent;
+  color:orange;
 }
 input{
   border:1px solid blue;
